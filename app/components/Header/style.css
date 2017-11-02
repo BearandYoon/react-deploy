@@ -1,0 +1,42 @@
+.header-component {
+  z-index: 99;
+  position: relative;
+}
+
+.header-container {
+  background: #002D4E;
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  top: 0;
+}
+
+.header-container .logo-image {
+  max-height: 50px;
+  max-width: 50px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 50px;
+}
+
+.header-container .header-title-container {
+  display: flex;
+  color: #fff;
+}
+
+.header-container .header-title-container .header-title {
+  margin: 20px auto;
+  font-size: 34px;
+}
+
+.header-container .header-title-container .header-subtitle {
+  margin-right: 50px;
+  position: absolute;
+  right: 0;
+  font-size: 19px;
+  font-weight: 500;
+}

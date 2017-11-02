@@ -1,0 +1,97 @@
+.lesson-container {
+  padding: 50px;
+}
+
+.lesson-container .lesson-header {
+}
+
+.lesson-container .lesson-content {
+  padding-top: 30px;
+  display: flex;
+}
+
+.lesson-container .lesson-content .lesson-content-detail {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.lesson-container .lesson-content .lesson-logo-container {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.lesson-container .lesson-content .lesson-logo-container .logo-container {
+  text-align: center;
+}
+
+.lesson-container .lesson-content .lesson-logo-container .logo-container .lesson-logo {
+  background-size: contain;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.lesson-container .lesson-intro-text-container {
+  padding: 0 20px;
+}
+
+.lesson-action-container {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.lesson-action-container .btn-delete {
+  color: red !important;
+  background-color: #a8e4d8 !important;
+  margin: 0 5px !important;
+}
+
+.lesson-action-container .btn-add {
+  background-color: #a8e4d8 !important;
+  margin: 0 5px !important;
+}
+
+.exercise-container-header {
+  color: #59585D;
+  padding: 0 20px;
+}
+
+.exercise-list-item {
+  margin: 20px 0;
+}
+
+.exercise-list-item .exercise-item {
+  padding: 30px;
+}
+
+.exercise-list-item .exercise-item .exercise-header .exercise-title {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.exercise-list-item .exercise-item .exercise-header .order-arrow {
+  font-size: 20px;
+  float: right;
+}
+
+.btn-add-exercise {
+  background-color: #a8e4d8 !important;
+  margin-top: 30px !important;
+}
+
+.exercise-order-container {
+  display: inline-block;
+  float: right;
+}
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
